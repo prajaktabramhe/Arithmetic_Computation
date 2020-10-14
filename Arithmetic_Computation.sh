@@ -7,3 +7,7 @@ read a b c
 
 equ1=$(( $a + $b * $c ))
 echo "first equation" $equ1;
+
+
+equ2=$(( $a * $b + $c ))
+echo "second equation" $equ2;
