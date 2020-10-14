@@ -11,3 +11,6 @@ echo "first equation" $equ1;
 
 equ2=$(( $a * $b + $c ))
 echo "second equation" $equ2;
+
+equ3=$(( $c + $a / $b ))
+echo "third equation" $equ3;
