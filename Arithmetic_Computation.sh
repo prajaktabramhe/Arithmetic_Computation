@@ -35,3 +35,14 @@ for(( j=1; j<=4; j++ ))
 do
 echo "Dict[$j]:"${dict[$j]}
 done
+
+#Read the Dictionary value to Array
+
+
+i=1
+echo "Printing Array Values";
+for(( i=1; i<=4; i++ ))
+do
+arr1[i]=${dict[$i]}
+echo "Array[$i]:"${arr1[i]}
+done
