@@ -14,3 +14,6 @@ echo "second equation" $equ2;
 
 equ3=$(( $c + $a / $b ))
 echo "third equation" $equ3;
+
+equ4=$(( $a % $b + $c ))
+echo "fourth equation" $equ4;
