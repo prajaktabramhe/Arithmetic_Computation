@@ -46,3 +46,8 @@ do
 arr1[i]=${dict[$i]}
 echo "Array[$i]:"${arr1[i]}
 done
+
+#Descending oder
+
+echo "decending sorted array";
+printf "%s\n" "${arr1[@]}" | sort -nr
